@@ -22,12 +22,8 @@ export default class View extends Component {
           <div className="col-lg-4">
             <h3 className="pull-right"> Meenakshi Uppala</h3>
           </div>
-          
+         
         </div>
-       
-
-
-           <button className="accordion"> Search Option </button>
 
       </div>
     )

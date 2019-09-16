@@ -11,7 +11,7 @@ export default class RadioButton extends Component {
   render() {
     return (
       <div className="row">
-       
+               <button className="accordion"> Search Option </button>
           <div className="col-lg-12 dis-flex">
             <div className="rb p10">
               <h4>Level Id/EAN</h4>
@@ -78,8 +78,6 @@ export default class RadioButton extends Component {
             </div>
           </div>
         </div>
-   
-
     )
   }
 }
