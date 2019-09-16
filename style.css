@@ -2,8 +2,8 @@ h1, p {
   font-family: Lato;
 }
 .main{
-   background-color: rgb(66, 13, 165);
-  height:4em;
+   background-color: rgb(56, 11, 139);
+ 
   text-align: center;
   color:white;
 }
@@ -12,4 +12,48 @@ h1, p {
 }
 .pull-left{
   float:left;
+}
+input[type=radio] {
+    margin: 4px 0 0;
+    margin-top: 1px;
+    line-height: normal;
+}
+h4{
+  color:white;
+  background-color: rgb(56, 11, 139);
+  height:4rem;
+  margin-top: -15px;
+  margin-bottom: 13px;
+  margin-right: -14px;
+  margin-left: -14px;
+  padding:10px
+
+}
+
+/* .col-lg-12{
+  border:1px solid gray;
+} */
+.p10{
+  padding :15px;
+  margin:10px;
+}
+.rb{
+  width:30%;
+  border:1px solid rgb(250, 243, 243);
+  background-color: white;
+  box-shadow: 3px 3px 3px rgb(177, 169, 169)
+  
+}
+.dis-flex{
+  display:flex;
+}
+.accordion {
+  background-color: rgb(221, 214, 214);
+  color: black;
+  cursor: pointer;
+  padding: 9px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
 }

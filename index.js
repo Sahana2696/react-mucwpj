@@ -16,6 +16,7 @@ class App extends Component {
     return (
       <div>
        <View/>
+       <RadioButton/>
       </div>
     );
   }

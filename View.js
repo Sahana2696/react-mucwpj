@@ -4,34 +4,30 @@ import React, { Component } from 'react';
 export default class View extends Component {
   constructor(props) {
     super(props);
-    this.state = {
-      check:"true"
-    }
+
   }
 
   render() {
     return (
       <div>
-        <div className="main">
-          <h3 class="col-lg-4 pull-left" > FedEx Services</h3>
-          <h3 class="col-lg-4"> Customer Pricing Map</h3>
-          <h3 class="col-lg-4 pull-right" > Meenakshi Uppala</h3>
+
+        <div className=" col-lg-12 main">
+
+          <div className="col-lg-4">
+            <h3 className="pull-left"> FedEx Services</h3>
+          </div>
+          <div className="col-lg-4">
+            <h3> Customer Pricing Map</h3>
+          </div>
+          <div className="col-lg-4">
+            <h3 className="pull-right"> Meenakshi Uppala</h3>
+          </div>
+          
         </div>
-
-        <div>
-          <div className="well"> Search Option </div>
-          <h5><b> Service Group Type</b></h5>
-          <label>
-            <input type="checkbox" defaultChecked={this.state.check} />
-            All
-          </label>
-        </div>
-
-        <div>
-
-        </div>
+       
 
 
+           <button className="accordion"> Search Option </button>
 
       </div>
     )
