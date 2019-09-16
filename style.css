@@ -1,3 +1,15 @@
 h1, p {
   font-family: Lato;
 }
+.main{
+   background-color: rgb(66, 13, 165);
+  height:4em;
+  text-align: center;
+  color:white;
+}
+.pull-right{
+  float:right;
+}
+.pull-left{
+  float:left;
+}
