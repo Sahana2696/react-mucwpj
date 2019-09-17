@@ -4,6 +4,7 @@ import CustomerInfo from './CustomerInfo';
 import PricingMap from './PricingMap';
 import EanCount from './EanCount';
 import CrossOpco from './CrossOpco';
+import Search from './Search';
 
 
 export default class Routing extends Component {
@@ -24,7 +25,9 @@ export default class Routing extends Component {
                 <Route exact path='/Pricing Map' component={PricingMap} />
                 <Route exact path='/EAN Count' component={EanCount} />
                 <Route exact path='/Cross Opco Price Type' component={CrossOpco} />
+                <Route exact path='/Search Options' component={Search}/>
               </Switch>
+
             </div>
           </BrowserRouter>
         </div>

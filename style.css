@@ -60,10 +60,19 @@ h4{
 .col-lg-3{
    
     top: 0;
-    left: 0;
-    width: 110%;
-    background:orangered;
-    height: 4rem;
-    color:black;
+    left: -70px;
+    width: 113%;
+    background: orangered;
+    height: 3rem;
+    color: black;
 
+}
+a{
+  margin:20px;
+  font-size: 15px;
+    font-weight: 500;
+    text-decoration:none;
+    color:white;
+    padding: 5px 10px;
+    font-family:Arial, Helvetica, sans-serif;
 }
