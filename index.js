@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { render } from 'react-dom';
+import RadioButton from './RadioButton';
 import View from './View';
 
 import Routing from './Routing';
@@ -18,7 +19,7 @@ class App extends Component {
       <div>
        <View/>
        <Routing/>
-      
+      <RadioButton/>
       </div>
     );
   }

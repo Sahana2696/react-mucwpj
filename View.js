@@ -21,10 +21,10 @@ export default class View extends Component {
           </div>
           <div className="col-lg-4">
             <h3 className="pull-right"> Meenakshi Uppala</h3>
+           
           </div>
-         
+         <div  className="pull-right cpm"><h4 > CPM Administrator</h4></div>
         </div>
-
       </div>
     )
   }
