@@ -11,7 +11,7 @@ export default class Routing extends Component {
   render() {
     return (
       <div className="container">
-        <div className="col-lg-3">
+        <div className="col-lg-3 col-main">
           <BrowserRouter>
             <div>
               <Link to="/Customer Information">Customer Information</Link>
