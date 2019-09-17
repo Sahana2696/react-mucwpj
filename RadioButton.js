@@ -15,8 +15,8 @@ export default class RadioButton extends Component {
      
         <button type="button" className="accordion" data-toggle="collapse"
         data-target="#demo"> Search Option </button>
-        <div id="demo" className="collapse col-lg-12 dis-flex ">
-          <div className="rb p10">
+        <div id="demo" className="collapse col-lg-12">
+          <div className="rb p10 col-lg-3">
             <h4>Level Id/EAN</h4>
             <div>
               <label>
@@ -33,7 +33,7 @@ export default class RadioButton extends Component {
             </div>
           </div>
 
-          <div className="rb p10">
+          <div className="rb p10 col-lg-3">
             <h4>Pricing Loaded Option</h4>
             <div>
               <label>
@@ -48,7 +48,7 @@ export default class RadioButton extends Component {
           </label>
             </div>
           </div>
-          <div className="rb p10">
+          <div className="rb p10 col-lg-3">
             <h4>Hierarchy Comparison Direction</h4>
             <div>
               <label>
@@ -64,17 +64,17 @@ export default class RadioButton extends Component {
           </label>
             </div>
           </div>
-          <div className="rb p10">
+          <div className="rb p10 col-lg-3">
             <h4>Excluded Status</h4>
             <div>
               <label>
-                <input type="checkbox" value="option1" defaultChecked={this.state.checked} />
+                <input type="radio" value="option1" checked={this.state.checked} />
                 Cash
           </label>
             </div>
             <div>
               <label>
-                <input type="checkbox" value="option2" defaultChecked={this.state.checked} />
+                <input type="radio" value="option2" checked={this.state.checked} />
                 Delete
           </label>
             </div>
